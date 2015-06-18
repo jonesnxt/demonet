@@ -1,0 +1,137 @@
+2015-06-18 09:31:45 INFO: nxt.enableStackTraces = "true"
+2015-06-18 09:31:45 INFO: nxt.enableLogTraceback = "false"
+2015-06-18 09:31:45 INFO: logging enabled
+2015-06-18 09:31:45 FINE: java.version = 1.8.0_45
+2015-06-18 09:31:45 FINE: java.vm.version = 25.45-b02
+2015-06-18 09:31:45 FINE: java.vm.name = OpenJDK 64-Bit Server VM
+2015-06-18 09:31:45 FINE: java.vendor = Oracle Corporation
+2015-06-18 09:31:45 FINE: java.vm.vendor = Oracle Corporation
+2015-06-18 09:31:45 FINE: java.home = /usr/lib/jvm/java-8-openjdk/jre
+2015-06-18 09:31:45 FINE: java.library.path = /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+2015-06-18 09:31:45 FINE: java.class.path = classes:lib/lucene-core-3.6.2.jar:lib/jetty-servlet-9.2.11.v20150529.jar:lib/jetty-server-9.2.11.v20150529.jar:lib/jetty-http-9.2.11.v20150529.jar:lib/jetty-security-9.2.11.v20150529.jar:lib/websocket-client-9.2.11.v20150529.jar:lib/jetty-util-9.2.11.v20150529.jar:lib/websocket-common-9.2.11.v20150529.jar:lib/slf4j-api-1.7.7.jar:lib/slf4j-jdk14-1.7.7.jar:lib/h2-1.3.176.jar:lib/servlet-api-3.1.jar:lib/websocket-server-9.2.11.v20150529.jar:lib/websocket-api-9.2.11.v20150529.jar:lib/jetty-continuation-9.2.11.v20150529.jar:lib/jetty-servlets-9.2.11.v20150529.jar:lib/jetty-io-9.2.11.v20150529.jar:lib/json-simple-1.1.1.jar:lib/websocket-servlet-9.2.11.v20150529.jar:lib/bcprov-jdk15on-152.jar:conf
+2015-06-18 09:31:45 FINE: os.arch = amd64
+2015-06-18 09:31:45 FINE: sun.arch.data.model = 64
+2015-06-18 09:31:45 FINE: os.name = Linux
+2015-06-18 09:31:45 FINE: file.encoding = ANSI_X3.4-1968
+2015-06-18 09:31:45 FINE: nxt.runtime.mode = null
+2015-06-18 09:31:45 FINE: availableProcessors = 4
+2015-06-18 09:31:45 FINE: maxMemory = 1743257600
+2015-06-18 09:31:50 FINE: processId = 22076
+2015-06-18 09:31:50 INFO: nxt.isTestnet = "true"
+2015-06-18 09:31:50 INFO: nxt.isOffline = "true"
+2015-06-18 09:31:50 INFO: nxt.maxRollback = "800"
+2015-06-18 09:31:50 INFO: nxt.testnetGuaranteedBalanceConfirmations not defined or not numeric, using default value 1440
+2015-06-18 09:31:50 INFO: nxt.testnetLeasingDelay not defined or not numeric, using default value 1440
+2015-06-18 09:31:50 INFO: nxt.forgingDelay = "20"
+2015-06-18 09:31:50 INFO: nxt.forgingSpeedup = "3"
+2015-06-18 09:31:50 INFO: nxt.maxPrunableLifetime = "0"
+2015-06-18 09:31:50 INFO: nxt.includeExpiredPrunable = "false"
+2015-06-18 09:31:50 INFO: nxt.statementLogThreshold = "10000"
+2015-06-18 09:31:50 INFO: nxt.transactionLogThreshold = "15000"
+2015-06-18 09:31:50 INFO: nxt.transactionLogInterval = "15"
+2015-06-18 09:31:50 INFO: nxt.dbCacheKB = "0"
+2015-06-18 09:31:50 INFO: nxt.testDbUrl not defined
+2015-06-18 09:31:50 INFO: nxt.testDbType = "h2"
+2015-06-18 09:31:50 INFO: nxt.testDbDir = "nxt_test_db/nxt"
+2015-06-18 09:31:50 INFO: nxt.testDbParams = "DB_CLOSE_ON_EXIT=FALSE;MVCC=TRUE"
+2015-06-18 09:31:50 INFO: nxt.testDbUsername = "sa"
+2015-06-18 09:31:50 INFO: nxt.testDbPassword = "sa"
+2015-06-18 09:31:50 INFO: nxt.maxDbConnections = "30"
+2015-06-18 09:31:50 INFO: nxt.dbLoginTimeout = "70"
+2015-06-18 09:31:50 INFO: nxt.dbDefaultLockTimeout = "60"
+2015-06-18 09:31:50 FINE: Database jdbc url set to jdbc:h2:nxt_test_db/nxt;DB_CLOSE_ON_EXIT=FALSE;MVCC=TRUE;CACHE_SIZE=262144 username sa
+2015-06-18 09:31:51 FINE: Database connection pool current size: 1
+2015-06-18 09:31:51 INFO: Database update may take a while if needed, current db version 386...
+2015-06-18 09:31:51 INFO: nxt.enableTransactionRebroadcasting = "true"
+2015-06-18 09:31:51 INFO: nxt.testUnconfirmedTransactions not defined, assuming false
+2015-06-18 09:31:51 INFO: nxt.maxUnconfirmedTransactions = "2000"
+2015-06-18 09:31:51 INFO: nxt.trimDerivedTables = "true"
+2015-06-18 09:31:51 INFO: nxt.testnetNumberOfForkConfirmations = "0"
+2015-06-18 09:31:51 INFO: nxt.trimFrequency = "1000"
+2015-06-18 09:31:51 INFO: nxt.disableGetMoreBlocksThread not defined, assuming false
+2015-06-18 09:31:51 INFO: nxt.disableProcessTransactionsThread not defined, assuming false
+2015-06-18 09:31:51 INFO: nxt.disableRemoveUnconfirmedTransactionsThread not defined, assuming false
+2015-06-18 09:31:51 INFO: nxt.disableRebroadcastTransactionsThread not defined, assuming false
+2015-06-18 09:31:52 INFO: nxt.processPolls = "true"
+2015-06-18 09:31:52 INFO: nxt.myPlatform = "JONES"
+2015-06-18 09:31:52 INFO: nxt.myAddress = "jnxt.org"
+2015-06-18 09:31:52 INFO: nxt.peerServerPort = "7874"
+2015-06-18 09:31:52 INFO: nxt.shareMyAddress = "true"
+2015-06-18 09:31:52 INFO: nxt.myHallmark not defined
+2015-06-18 09:31:52 FINE: My peer info:
+{"announcedAddress":"jnxt.org","application":"NRS","version":"1.5.10","platform":"JONES","shareAddress":false}
+2015-06-18 09:31:52 INFO: nxt.defaultTestnetPeers = "nxt.scryptmh.eu; 54.186.98.117; 178.150.207.53; 192.241.223.132; node9.mynxtcoin.org; node10.mynxtcoin.org; node3.mynxtcoin.org; 109.87.169.253; nxtnet.fr; 50.112.241.97; 2.84.142.149; bug.airdns.org; 83.212.103.14; 62.210.131.30; 104.131.254.22; 46.28.111.249; 94.79.54.205; 174.140.168.136; 107.170.3.62; node1.forgenxt.com; 5.196.1.215; nxt01.now.im; 37.139.6.166; scripterron.dyndns.biz; 107.170.3.62; scripterron.dyndns.org; petko.dlinkddns.com; 52.0.220.30; nxt.noip.me;"
+2015-06-18 09:31:52 INFO: nxt.testnetPeers not defined
+2015-06-18 09:31:52 INFO: nxt.knownBlacklistedPeers not defined
+2015-06-18 09:31:52 INFO: nxt.maxNumberOfInboundConnections = "250"
+2015-06-18 09:31:52 INFO: nxt.maxNumberOfOutboundConnections = "50"
+2015-06-18 09:31:52 INFO: nxt.maxNumberOfConnectedPublicPeers = "20"
+2015-06-18 09:31:52 INFO: nxt.maxNumberOfKnownPeers = "2000"
+2015-06-18 09:31:52 INFO: nxt.minNumberOfKnownPeers = "1000"
+2015-06-18 09:31:52 INFO: nxt.connectTimeout = "10000"
+2015-06-18 09:31:52 INFO: nxt.readTimeout = "20000"
+2015-06-18 09:31:52 INFO: nxt.enableHallmarkProtection = "true"
+2015-06-18 09:31:52 INFO: nxt.pushThreshold = "0"
+2015-06-18 09:31:52 INFO: nxt.pullThreshold = "0"
+2015-06-18 09:31:52 INFO: nxt.useWebSockets = "true"
+2015-06-18 09:31:52 INFO: nxt.webSocketIdleTimeout = "900000"
+2015-06-18 09:31:52 INFO: nxt.blacklistingPeriod = "600000"
+2015-06-18 09:31:52 INFO: nxt.communicationLoggingMask = "0"
+2015-06-18 09:31:52 INFO: nxt.sendToPeersLimit = "10"
+2015-06-18 09:31:52 INFO: nxt.usePeersDb = "true"
+2015-06-18 09:31:52 INFO: nxt.getMorePeers = "true"
+2015-06-18 09:31:52 INFO: nxt.cjdnsOnly = "false"
+2015-06-18 09:31:52 INFO: nxt.ignorePeerAnnouncedAddress = "false"
+2015-06-18 09:31:52 INFO: shareMyAddress is disabled, will not start peer networking server
+2015-06-18 09:31:52 INFO: nxt.enableFakeForging not defined, assuming false
+2015-06-18 09:31:52 INFO: nxt.disableGenerateBlocksThread not defined, assuming false
+2015-06-18 09:31:52 INFO: nxt.adminPassword not defined
+2015-06-18 09:31:52 INFO: nxt.maxAPIRecords = "100"
+2015-06-18 09:31:52 INFO: nxt.allowedBotHosts = "*"
+2015-06-18 09:31:52 INFO: nxt.enableAPIServer = "true"
+2015-06-18 09:31:52 INFO: nxt.apiServerHost = "0.0.0.0"
+2015-06-18 09:31:52 INFO: nxt.disableAdminPassword = "false"
+2015-06-18 09:31:52 INFO: nxt.apiSSL = "false"
+2015-06-18 09:31:52 INFO: nxt.apiServerIdleTimeout = "30000"
+2015-06-18 09:31:52 INFO: API server using HTTP port 6876
+2015-06-18 09:31:52 INFO: nxt.apiResourceBase = "html/ui"
+2015-06-18 09:31:52 INFO: nxt.apiWelcomeFile = "index.html"
+2015-06-18 09:31:52 INFO: nxt.javadocResourceBase = "html/doc"
+2015-06-18 09:31:52 INFO: nxt.enableAPIServerGZIPFilter = "false"
+2015-06-18 09:31:52 INFO: nxt.apiServerCORS = "true"
+2015-06-18 09:31:52 INFO: nxt.allowedUserHosts = "127.0.0.1; localhost; [0:0:0:0:0:0:0:1];"
+2015-06-18 09:31:52 INFO: nxt.enableUIServer = "false"
+2015-06-18 09:31:52 INFO: User interface server not enabled
+2015-06-18 09:31:52 INFO: nxt.debugTraceQuote = """
+2015-06-18 09:31:52 INFO: nxt.debugTraceSeparator = "	"
+2015-06-18 09:31:52 INFO: nxt.debugLogUnconfirmed = "false"
+2015-06-18 09:31:52 INFO: nxt.debugTraceAccounts not defined
+2015-06-18 09:31:52 INFO: nxt.debugTraceLog = "nxt-trace.csv"
+2015-06-18 09:31:52 INFO: nxt.timeMultiplier not defined or not numeric, using default value 0
+2015-06-18 09:31:52 FINE: Running 1 tasks...
+2015-06-18 09:31:52 INFO: Genesis block already in database
+2015-06-18 09:31:52 FINE: Rollback from block 8312537119677154729 at height 0 to 8312537119677154729 at 0
+2015-06-18 09:31:52 FINE: Average transaction time is 0.071 seconds
+2015-06-18 09:31:52 INFO: Last block height: 0
+2015-06-18 09:31:52 INFO: nxt.forceScan = "false"
+2015-06-18 09:31:52 FINE: Running 1 final tasks...
+2015-06-18 09:31:52 INFO: Started API server at 0.0.0.0:6876
+2015-06-18 09:31:52 FINE: Starting 5 background jobs
+2015-06-18 09:31:52 FINE: Starting 2 delayed tasks
+2015-06-18 09:31:52 INFO: Initialization took 6 seconds
+2015-06-18 09:31:52 INFO: Nxt server 1.5.10 started successfully.
+2015-06-18 09:31:52 FINE: Database connection pool current size: 2
+2015-06-18 09:31:52 FINE: Known peers: 0
+2015-06-18 09:31:52 INFO: Copyright ?? 2013-2015 The Nxt Core Developers.
+2015-06-18 09:31:52 INFO: Distributed under GPLv2, with ABSOLUTELY NO WARRANTY.
+2015-06-18 09:31:52 INFO: Client UI is at http://localhost:6876/index.html
+2015-06-18 09:31:52 INFO: RUNNING ON TESTNET - DO NOT USE REAL ACCOUNTS!
+2015-06-18 09:32:01 INFO: nxt.apiServerEnforcePOST = "true"
+2015-06-18 09:32:17 INFO: Shutting down...
+2015-06-18 09:32:17 INFO: Stopping background jobs...
+2015-06-18 09:32:17 INFO: shutting down scheduledThreadPool
+2015-06-18 09:32:17 INFO: ...Done
+2015-06-18 09:32:17 INFO: shutting down sendingService
+2015-06-18 09:32:17 INFO: shutting down peersService
+2015-06-18 09:32:18 INFO: Database shutdown completed
+2015-06-18 09:32:18 INFO: Nxt server 1.5.10 stopped.
